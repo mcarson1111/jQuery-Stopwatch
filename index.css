@@ -5,17 +5,29 @@ body {
   color: rgb(0, 253, 254);
   background-color: #000;
   margin: 0;
+  text-align: center;
 }
 
-#stopWatch {
+img {
+  height: 10rem;
+  margin-top: 5rem;
+  border: 5px solid rgb(253, 0, 254);
+  outline: 10px solid rgb(0, 253, 254);
+}
+
+#glow {
+  margin-left: 300px;
+}
+
+div.stopWatch {
   font-size: 6rem;
   top: 0; left: 0; right: 0; bottom: 0;
-  position: absolute;
+  /*position: absolute;*/
   text-align: center;
-  margin-top: 30vh;
+  margin-top: 10vh;
 }
 
-#stopWatch button {
+.stopWatch button {
   background: transparent;
   border: 1px solid rgb(0, 253, 254);
   color: rgb(0, 253, 254);
@@ -23,7 +35,7 @@ body {
   font-size: 3rem;
 }
 
-#stopWatch button:hover,
-#stopWatch button:active {
+.stopWatch button:hover,
+.stopWatch button:active {
   background: rgb(253, 0, 254);
 }

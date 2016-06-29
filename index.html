@@ -7,11 +7,28 @@
   </head>
 
   <body>
-    <div id="stopWatch">
-      <section class="display">0</section>
+
+    <div class="images">
+      <img src ="kittycreeper.gif">
+      <img id="glow" src ="glow.gif">
+    </div>
+    <div class="stopWatch" id="sw1">
+      <section class="display">00:00:00.0</section>
       <button class="stopWatch start">Start!</button>
       <button class="stopWatch stop">Stop!</button>
+      <button class="stopWatch reset">Reset!</button>
+    </div>
+
+
+
+    <div class="stopWatch" id="sw2">
+      <section class="display">00:00:00.0</section>
+      <button class="stopWatch start">Start!</button>
+      <button class="stopWatch stop">Stop!</button>
+      <button class="stopWatch reset">reset!</button>
     </div>
   </body>
-</html>
 
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script src="index.js"></script>
+</html>
